@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Links | itsDeke.com</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+                <div id="twitch-embed" class="text-center"></div>
+                <h3 class="text-center mt-3">itsDeke</h3>
+            <p class="text-center">Web Developer & Designer | Fitness Enthusiast | Twitch Affiliate</p>
+
+            <ul class="">
+                <li><a href="https://discord.gg/j52uf7A"><i class="fab fa-discord"></i></a></li>
+                <li><a href="https://www.instagram.com/itsDeke_"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com/itsDeke_"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCDG8K3hhqJuUYhcn3aI5npg"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://github.com/itsdeke"><i class="fab fa-github"></i></a></li>
+            </ul>
+
+            <a href="https://pod-itemtracker.herokuapp.com" class="mx-auto btn btn-block btn-outline-light" target="_blank"style="width:300px">Project: PoD: Item Tracker</a>
+
+          </div>
+        </div>
+      </div>
+</body>
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 641,
+        height: 360,
+        channel: "itsDeke",
+        layout: "video",
+        autoplay: false
+      });
+    </script>
+
+</html>
