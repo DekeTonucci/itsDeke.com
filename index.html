@@ -4,42 +4,172 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Links | itsDeke.com</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    <title>Portfolio | itsDeke.com</title>
     <link href="styles.css" rel="stylesheet" />
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet">
+    
+
 </head>
-<body>
-    <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-                <div id="twitch-embed" class="text-center"></div>
-                <h3 class="text-center mt-3">itsDeke</h3>
-            <p class="text-center">Web Developer & Designer | Fitness Enthusiast | Twitch Affiliate</p>
+<body class="font-sans leading-normal tracking-normal">
 
-            <ul class="">
-                <li><a href="https://discord.gg/j52uf7A"><i class="fab fa-discord"></i></a></li>
-                <li><a href="https://www.instagram.com/itsDeke_"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="https://twitter.com/itsDeke_"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="https://www.youtube.com/channel/UCDG8K3hhqJuUYhcn3aI5npg"><i class="fab fa-youtube"></i></a></li>
-                <li><a href="https://github.com/itsdeke"><i class="fab fa-github"></i></a></li>
-            </ul>
+    <!--Header-->
+    <div class="w-full m-0 p-0 mb-5" style="height: 60vh; max-height:460px;">
+        <div class="container max-w-4xl mx-auto pt-8 md:pt-16 text-center break-normal">
+          <!--Title-->
+            <p class="text-white font-extrabold text-3xl md:text-5xl">
+              Christopher Tonucci
+            </p>
+            <p class="text-gray-500 mt-5">
+                Highly driven graduate and motivated team player seeking a full-time position as a frontend developer. Proficient in HTML, CSS, JavaScript; plus modern libraries and frameworks. Passionate about usability and possess working knowledge of Adobe Suite.
+            </p>
+            <p class="text-gray-500 mt-5">
+                In my downtime I enjoy staying up to date with new technologies and streaming personal projects on Twitch.
+            </p>
 
-            <a href="https://pod-itemtracker.herokuapp.com" class="mx-auto btn btn-block btn-outline-light" target="_blank"style="width:300px">Project: PoD: Item Tracker</a>
-
-          </div>
         </div>
       </div>
-</body>
-    <script src="https://embed.twitch.tv/embed/v1.js"></script>
-    <script type="text/javascript">
-      new Twitch.Embed("twitch-embed", {
-        width: 641,
-        height: 360,
-        channel: "itsDeke",
-        layout: "video",
-        autoplay: false
-      });
-    </script>
+      
+      <!--Container-->
+      <div class="container px-4 md:px-0 max-w-6xl mx-auto -mt-32">
+        
+        <div class="mx-0 sm:mx-6">
+          
+          <!--Nav-->
+          <nav class="mt-0 w-full">
+            <div class="container mx-auto flex items-center">
+              
+              <div class="flex w-1/2 pl-4 text-sm"></div>
+  
+              <!--Socials-->
+              <div class="flex w-1/2 justify-end content-center">		
+                <a class="inline-block text-gray-500 no-underline hover:text-white hover:text-underline text-center text-2xl p-2 md:h-auto md:p-4 avatar" data-tippy-content="@itsdeke" href="https://github.com/itsdeke">
+                  <i class="fab fa-github-square"></i>
+                </a>
+                <a class="inline-block text-gray-500 no-underline hover:text-white hover:text-underline text-center text-2xl p-2 md:h-auto md:p-4 avatar" data-tippy-content="@cttonucci" href="https://www.linkedin.com/in/cttonucci/">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a class="inline-block text-gray-500 no-underline hover:text-white hover:text-underline text-center text-2xl p-2 md:h-auto md:p-4 avatar" data-tippy-content="@itsdeke_" href="https://twitter.com/itsdeke_">
+                  <i class="fab fa-twitter-square"></i>
+                </a>
+                </a>
+                <a class="inline-block text-gray-500 no-underline hover:text-white hover:text-underline text-center text-2xl p-2 md:h-auto md:p-4 avatar" data-tippy-content="@itsdeke" href="https://www.twitch.tv/itsdeke">
+                  <i class="fab fa-twitch"></i>
+                </a>
+              </div>
+  
+            </div>
+          </nav>
+  
+          <div class="bg-gray-200 w-full text-xl md:text-2xl text-gray-800 leading-normal rounded-t">
+            
+           
+          <!--Projects Container-->
+          <div class="flex flex-wrap justify-between justify-center items-center">
+  
+            <!--Project One-->
+            <!-- Project One: Image -->
+            <div class="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink md:-ml-20">
+              <div class="flex-1 bg-white rounded-lg overflow-hidden shadow-lg">
+                <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+                  <img src="https://source.unsplash.com/collection/3657445/800x600" class="h-full w-full rounded">
+                </a>
+              </div>
+            </div>
+  
+            <!-- Project One: Details -->
+            <div class="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink relative">
+              <div class="flex-1 flex-row text-center sm:text-center md:text-left lg:text-left" >
+                  <p class="w-full text-gray-600 px-6">Diablo II Item Tracker</p>
+                  <p class="w-full text-gray-600 text-xs md:text-sm px-6">Project allowed Twitch Streamers to easily create lists of items they have recently found to their stream viewers.</p>
+                  <p class="w-full text-gray-600 text-xs md:text-sm px-6 mt-3">Frontend: ReactJS and Reactstrap.</p>
+                  <p class="w-full text-gray-600 text-xs md:text-sm px-6 mt-3">Backend: NodeJS, Express and MongoDB.</p>
 
+              </div>
+            </div>
+            <div class="border-t-2 border-gray-600"></div>
+            <!-- Project Two -->
+            <!-- Project Two: Details -->
+            <div class="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink relative">
+              <div class="flex-1 flex-row text-center sm:text-center md:text-right lg:text-right" >
+                  <p class="w-full text-gray-600 px-6">Twitch Statistics App</p>
+                  <p class="w-full text-gray-600 text-xs md:text-sm px-6">Project allowed Twitch Streamersto see valuable data about their streams to help improve stream interaction and viewer engagement.</p>
+                  <p class="w-full text-gray-600 text-xs md:text-sm px-6 mt-3">Frontend: ReactJS, Bootstrap and ChartJS.</p>
+                  <p class="w-full text-gray-600 text-xs md:text-sm px-6 mt-3">Backend: NodeJS, Express and MongoDB.</p>
+
+              </div>
+            </div>
+
+            <!-- Project Two Image -->
+            <div class="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink md:-mr-20 relative">
+              <div class="flex-1 bg-white rounded-lg overflow-hidden shadow-lg">
+                <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+                  <img src="https://source.unsplash.com/collection/3657445/800x600" class="h-full w-full rounded">
+                </a>
+              </div>
+            </div>
+              
+  
+          <!--/ Project Container-->
+              
+        </div>
+        
+        
+     </div>
+    
+          <!--Subscribe-->	
+          <div class="container font-sans text-center">
+              <h2 class="font-bold break-normal text-2xl md:text-4xl">Contact</h2>
+              <h3 class="font-bold break-normal font-normal text-gray-600 text-base md:text-xl">Send me a message!</h3>
+              <div class="w-full text-left pt-4">
+                  <form class="flex flex-wrap justify-between justify-center items-center rounded px-8 pt-6 pb-8 mb-4">
+                      <div class="mb-4 p-2 w-1/2">
+                        <label class="block text-gray-100 text-sm font-bold mb-2" for="name">
+                          Name:
+                        </label>
+                        <input class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Name">
+                      </div>
+                      <div class="mb-4 p-2 w-1/2">
+                        <label class="block text-gray-100 text-sm font-bold mb-2" for="email">
+                          Email:
+                        </label>
+                        <input class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="hello@domain.com">
+                      </div>
+                      <div class="mb-4 p-2 w-full">
+                        <label class="block text-gray-100 text-sm font-bold mb-2" for="message">
+                          Message:
+                        </label>
+                        <textarea class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" type="text" placeholder="Your message..."></textarea>
+                      </div>
+                      <div class="flex flex-wrap justify-between justify-center items-center">
+                        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+                          Sign In
+                        </button>
+                      </div>
+                    </form>
+              </div>
+            </div>
+            <!-- /Subscribe-->
+  
+    </div>
+  
+  
+    <footer class="bg-gray-900">	
+      <div class="container max-w-6xl mx-auto flex items-center px-2 py-8">
+  
+          
+  
+      
+      </div>
+    </footer>
+  
+    <script src="https://unpkg.com/popper.js@1/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@4"></script>
+    <script>
+      //Init tooltips
+      tippy('.avatar')
+    </script>
+  
+  
+  </body>
 </html>
